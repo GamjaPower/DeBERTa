@@ -1,4 +1,5 @@
 #!/bin/bash
+# export PYTHONPATH=/root/DeBERTa
 SCRIPT=$(readlink -f "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")
 cd $SCRIPT_DIR
